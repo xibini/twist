@@ -1,18 +1,14 @@
 <script>
-import ContentField from "@/components/ContentField.vue";
-
+import PlayArea from "@/components/PlayArea.vue";
 export default {
-  components: {
-    ContentField
-  }
+  components: {PlayArea},
 }
-
 </script>
 
 <template>
-  <ContentField>
-    对战
-  </ContentField>
+<PlayArea>
+
+</PlayArea>
 </template>
 
 <style scoped>
